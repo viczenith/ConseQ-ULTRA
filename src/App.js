@@ -38,7 +38,7 @@ const PartnerDashboardAuto = React.lazy(() => import("./pages/CEO_Dashboard/Part
 
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
   return (
       <Routes>
         <Route path="/" element={<HomePage />} />
