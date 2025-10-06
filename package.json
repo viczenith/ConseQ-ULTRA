@@ -42,7 +42,7 @@
     "mock:api": "node server/mockApi.js",
     "mock:ws": "node server/mockWsServer.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "echo \"Deployment handled by GitHub Actions\""
   },
   "eslintConfig": {
     "extends": [
